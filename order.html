@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="order.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"> Sweet Pizza</label>
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="order.html">Order Pizza</a></li>
+            </ul>
+          </nav>
+    </div>
+    <div class="container">
+
+        <form id="form1">
+          <div class="form-group">
+            <label for="select">Choose your type:</label>
+            <select class="form-control" id="type"  required>
+              <option>Vaggie Pizza</option>
+              <option>Margherita</option>
+              <option>Deluxe</option>
+              <option>Hawaiian</option>
+              <option>Peperoni</option>
+              <option>Chikken Tikka</option>
+              <option>BBQ Chiken</option>
+              <option>Cheese Pizza</option>
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="select">Choose the size of the Pizza and the price:</label>
+            <select class="form-control" id="size"  required>
+                <option value="3">small-size---600</option>
+                <option value="2">medium-size---800</option>
+              <option value="1">Large-size---1200</option>
+
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="select">Choose your crust:</label>
+            <select class="form-control" id="crust"  required>
+              <option value="1">Cripsy ---150</option>
+              <option value="2">Stuffed ---180</option>
+              <option value="3">Gluten-free---200</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="select">Choose your Toppings:</label>
+            <select class="form-control" id="toppings"  required>
+              <option value="1">Pepperoni ---100</option>
+              <option value="2">Mushrooms ---120</option>
+              <option value="3">salad ---80</option>
+              <option value="4">Sausage ---150</option>
+              <option value="5">Salami ---200</option>
+            </select>
+          </div>
+         <div class="form-group" required>
+            <label for="select">Quantity:</label>
+            <input type="number" id="quantity" class="form-control" min="1" required>
+         </div>
+         <div class="form-group"  required>
+          <label for="select">Delivery option:</label>
+          <select class="form-control" id="delivery"  required>
+            <option value="1">No Delivery</option>
+            <option value="2">To be Delivered</option>
+          </select>
+         </div>
+         <div class="form-group">
+          <button type="submit" onclick="return sumbit()" class="btn btn-info btn-block">ORDER</button>
+         </div>
+        </form> 
+      </div>
+    <div>
+        <div id="social">
+            <img src="images/behance.png" alt="">
+            <img src="images/dribble.png" alt="">
+            <img src="images/facebook.png" alt="">
+            <img src="images/flickr.png" alt="">
+            <img src="images/g_plus.png" alt="">
+            <img src="images/pinterest.png" alt="">
+            <img src="images/skype.png" alt="">
+            <img src="images/stumble_upon.png" alt="">
+            <img src="images/twitter.png" alt="">
+            <img src="images/you_tube.png" alt="">
+        </div>
+        <div id="reach">
+            <p>
+              You can reach us through all our social media platforms <br>
+              @Derrapics
+            </p>
+          </div>
+  
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="Js/jquery-3.5.1.js"></script>
+      <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
