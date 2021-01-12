@@ -2,6 +2,7 @@
 #### This is not the first website that I have made 
 #### Writen By Derrick Muriithi W
 ## Description
+   This is a pizza campany that deals with the cooking and delivering of pizza to the clients that have orderd it.
    
 
 ## Setup/Installation Requirements
