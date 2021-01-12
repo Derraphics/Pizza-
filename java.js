@@ -22,7 +22,6 @@ $(document).ready(function(){
   TotalPrice.prototype.finalTotal = function () {
     return ( this.price + this.delivery + this.toppings + this.crust )* this.quantity ;
   };
-  
   let sizePrices = [1200, 800, 600]
   let priceToppings = [100,120,80,150,200]
   let toppingsName= ["Pepperoni" , "mushroom" , "salad" ,"sausage", " salami"]
