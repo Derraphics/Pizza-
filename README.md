@@ -17,7 +17,7 @@
 
 * Open the project on VS Code and liveserver
 ## Known Bugs
-  Evrything is working as expected in the project
+  Everything is working as expected in the project
 ## Technologies Used
 * HTML
 * css
