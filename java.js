@@ -57,6 +57,9 @@ $(document).ready(function(){
                alert(newOrder.order());
                alert("Your bill is: " + newTotal.finalTotal());
                alert("Thank you for shopping with us!")
+               alert("You are much welcomed again and again")
+               alert("Remember to leave us a feedback on what you liked and what you did not like")
+               alert("Have a nice time dear one")
             }
         }
   })
