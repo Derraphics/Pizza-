@@ -14,7 +14,6 @@
     ```
     $ cd Pizza
     ```
-
 * Open the project on VS Code and liveserver
 ## Known Bugs
   Everything is working as expected in the project
