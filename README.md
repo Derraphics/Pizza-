@@ -14,10 +14,10 @@
     ```
     $ cd Pizza
     ```
-    
+
 * Open the project on VS Code and liveserver
 ## Known Bugs
-  Currently the project is working as expected
+  Evrything is working as expected in the project
 ## Technologies Used
 * HTML
 * css
