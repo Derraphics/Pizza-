@@ -3,7 +3,6 @@ $(document).ready(function(){
       $("#form1").toggle();
     });
   });
-  
   function Results (type,size,crust,toppings) {
     this.type = type;
     this.size= size;
