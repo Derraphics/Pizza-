@@ -3,7 +3,7 @@
 #### Writen By Derrick Muriithi W
 ## Description
    This is a pizza campany that deals with the cooking and delivering of pizza to the clients that have orderd it.
-   
+   The campany also accepts all kind of feedback from all our customers
 
 ## Setup/Installation Requirements
 * Clone the repository to your local machine
